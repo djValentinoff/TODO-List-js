@@ -16,11 +16,6 @@
     let button = document.createElement('button');
     let buttonWrapper = document.createElement('div');
 
-    // button.disabled = !input.value.length;
-    // input.addEventListener('input', function () {
-    //   button.disabled = !input.value.length;
-    // });
-
     form.classList.add('input-group', 'mb-3');
     input.classList.add('form-control');
     input.placeholder = 'Введите название новго дела';
@@ -40,13 +35,6 @@
         button.disabled = true
       }
     })
-
-    // <form class="input-group mb-3">
-    //   <input class="form-control" placeholder="Введите название новго дела">
-    //   <div class="input-group-append">
-    //     <button class="btn btn-primary">Добавить дело</button>
-    //   </div>
-    // </form>
 
     return {
       form,
